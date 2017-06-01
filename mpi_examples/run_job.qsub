@@ -1,0 +1,40 @@
+#!/bin/bash --login
+
+### Set PBS parameters ###
+
+# Time job will take to execute (HH:MM:SS format)
+#PBS -l walltime=01:00:00
+
+### # Memory needed by the job (not strictly necessary, hence commented out by default)
+### #PBS -l mem=2gb
+
+# Number of nodes required and the number of processors per node
+# For the MSU HPCC, you're best off change nodes and leaving ppn set to 1.
+#PBS -l nodes=16:ppn=1
+
+# Make output and error files the same file
+#PBS -j oe
+
+# Send an email when a job is aborted, begins or ends
+#PBS -m abe
+
+# Specify the email address
+#PBS -M <username>@msu.edu
+
+# Give the job a name
+#PBS -N my_clever_jobname
+ 
+ 
+cd ${PBS_O_WORKDIR}       # Change to the Original Working Directory
+                          # that is, the directory where "qsub" was called
+
+### Load any required modules ###
+
+module load Python
+module load NumPy
+module load mpi4py
+ 
+###  List job commands ###
+# (note: you should make sure that "nodes * ppn" match the value for "-np")
+
+mpirun -np 16 python my_sparallel_script.py
