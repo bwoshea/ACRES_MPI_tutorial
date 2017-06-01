@@ -1,4 +1,4 @@
-# ACRES\_MPI\_tutorial
+# ACRES MPI tutorial
 
 MPI tutorial for the MSU ACRES REU
 
