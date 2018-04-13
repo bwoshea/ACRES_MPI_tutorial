@@ -5,6 +5,8 @@ MPI tutorial for the MSU ACRES REU
 Load up the mpi4py and numpy modules on the HPCC on one of the development nodes:
 
 ```
+module unload Python
+module load Python3
 module load mpi4py
 module load NumPy
 ```
