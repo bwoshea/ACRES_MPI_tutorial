@@ -40,5 +40,7 @@ but people often choose to use use powers of two).
 
 [Introduction to Scientific Computing book](http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html) by Victor Eijkhout  ([BitBucket repository](https://bitbucket.org/VictorEijkhout/hpc-book-and-course))
 
+[Parallel Programming in MPI and OpenMP](http://pages.tacc.utexas.edu/~eijkhout/pcse/html/index.html), also by Victor Eijkhout 
+
 ----
 
