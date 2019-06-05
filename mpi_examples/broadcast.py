@@ -2,7 +2,9 @@
 Uses the MPI Bcast command to broadcast a vector of data from the 
 root processor (0) to all other processors.  Use numpy to create arrays!
 
-Note: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
+Note 1: some MPI commands are explained in hello_world.py but not here!
+
+Note 2: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
 '''
 
 import numpy as np

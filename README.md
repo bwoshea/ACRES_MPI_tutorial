@@ -1,6 +1,8 @@
 # ACRES MPI tutorial
 
-MPI tutorial for the MSU ACRES REU
+Author: Brian O'Shea, oshea@msu.edu (CMSE and Physics+Astronomy)
+
+**MPI tutorial for the MSU ACRES REU**
 
 This tutorial requires use of Python 3 and mpi4py.  The HPCC does 
 not have mpi4py installed, but you can load this by logging onto 

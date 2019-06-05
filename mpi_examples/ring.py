@@ -4,6 +4,10 @@ iteration, each MPI task sends its data to the 'right', i.e., to the task whose
 rank is one greater than it.  If you're at the max task, hand back to zero.  This
 is analogous to people standing in a circle, all handing things to the person to their
 right.
+
+Note 1: some MPI commands are explained in hello_world.py but not here!
+
+Note 2: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
 '''
 
 import numpy as np

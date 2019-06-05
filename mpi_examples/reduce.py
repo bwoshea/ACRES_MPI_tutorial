@@ -3,7 +3,9 @@ This program creates different data on each task, does something to it, and then
 on the root task using the Reduce command (or does the same thing but sums it all up
 on *every* task using the Allreduce command, depending on what you comment out).
 
-Note: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
+Note 1: some MPI commands are explained in hello_world.py but not here!
+
+Note 2: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
 '''
 import numpy as np
 from mpi4py import MPI
@@ -16,7 +18,7 @@ if comm.rank == 0:
     print("-"*78)
 
 # create an array of length my_N and multiply it by rank+1
-# (so that it is different on each MPI task)
+# (so that the values in the array are different on each MPI task)
 my_N = 4
 my_A = np.arange(my_N, dtype=np.float64)
 my_A *= float(comm.rank + 1)
@@ -24,6 +26,7 @@ my_A *= float(comm.rank + 1)
 # sum everything up on this task - should be different on every task!
 my_sum = np.array(my_A.sum())
 
+# every MPI task writes things out.
 print("my rank is", comm.rank, "and my_A is", my_A, "and my_sum is", my_sum)
 
 comm.Barrier()

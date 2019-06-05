@@ -5,7 +5,9 @@ the data to be scattered into equally-sized chunks and shares it with the other
 tasks.  Note that this is different that Bcast, which broadcasts the *entire*
 object (or array, or whatever) to all other tasks.
 
-Note: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
+Note 1: some MPI commands are explained in hello_world.py but not here!
+
+Note 2: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
 '''
 import numpy as np
 from mpi4py import MPI

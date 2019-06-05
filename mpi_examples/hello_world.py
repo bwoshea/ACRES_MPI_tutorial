@@ -13,9 +13,10 @@ larger number than you have available computational cores won't really help much
 Note: this program adapted from code in https://github.com/jbornschein/mpi4py-examples
 '''
 
+# This line imports the mpi4py library
 from mpi4py import MPI
 
-# this initiates MPI in this script and creates the communicator 'comm'.
+# this initiates MPI in this program and creates the communicator 'comm'.
 # All MPI functions are now accessed through 'comm'
 comm = MPI.COMM_WORLD
 
@@ -36,7 +37,9 @@ comm.Barrier()
 # each process gets the same code, but since each process
 # has a different rank we can do different things on each one.
 
-# this will only happen on processor zero.
+# if/else statement ensures that processor zero (rank 0, often referred
+# to as the "master" or "root" task) prints something different than everybody
+# else.
 if my_rank == 0:
     print("and an extra-special hello from the root processor, whose rank is ", my_rank)
 else:
