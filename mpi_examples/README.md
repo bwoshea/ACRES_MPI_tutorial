@@ -1,20 +1,19 @@
 # IMPORTANT
 
-These examples use Python 3 and mpi4py.  The HPCC does 
-not have these installed by default, but you can load this by logging
-onto one of the development nodes of the HPCC (e.g., dev-intel14 or dev-intel16) and then type:
+This directory contains a variety of examples of MPI programs, which demonstrate different aspects of MPI (in particular, different types of MPI communication).  They are heavily annotated to explain exactly what's going on.
+
+These mpi example programs use Python 3 and mpi4py.  The HPCC does 
+not have mpi4py installed, but you can load this by logging onto 
+one of the development nodes of the HPCC (e.g., dev-intel16 or dev-intel18), and then type:
 
 ```
 source ~oshea/python_MPI_setup.sh
 ```
 
-Which will load up the Anaconda python distribution with Python 3, numpy, matplotlib, scipy, and many other packages, as well as mpi4py.  It will also set up the right system modules to use the correct compilers and MPI libraries.
-
-Note: these examples *should* be able to use Python 2 as well as Python 2, but this is not supported.  If you want to try that, you should be able to log onto a dev node of the HPCC and type:
+Which will load up the Anaconda python distribution with Python 3, numpy, matplotlib, scipy, and many other packages, as well as mpi4py.  
 
 ```
-module load mpi4py
-module load numpy
+mpirun -np 4 python my_example_script.py
 ```
 
-and it should work.
+Note: these examples *should* be able to use Python 2 as well as Python 3, but this is not supported.  
