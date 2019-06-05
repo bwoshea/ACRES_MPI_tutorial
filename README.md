@@ -3,19 +3,20 @@
 MPI tutorial for the MSU ACRES REU
 
 This tutorial requires use of Python 3 and mpi4py.  The HPCC does 
-not have these installed by default, but you can load this by logging
-onto one of the development nodes of the HPCC (e.g., dev-intel14 or dev-intel16) and then type:
+not have mpi4py installed, but you can load this by logging onto 
+one of the development nodes of the HPCC (e.g., dev-intel16 or dev-intel18), and then type:
 
 ```
 source ~oshea/python_MPI_setup.sh
 ```
 
-Which will load up the Anaconda python distribution with Python 3, numpy, matplotlib, scipy, and many other packages, as well as mpi4py.  It will also set up the right system modules to use the correct compilers and MPI libraries.
+Which will load up the Anaconda python distribution with Python 3.6, numpy, matplotlib, scipy, and many other packages, as well as mpi4py.  
 
-Look at the examples in the directory mpi_examples, which are heavily annotated to explain what they are doing.  You can run them with:
+Look at the examples in the directory mpi_examples, which are heavily annotated to explain what they are doing.  You can run them on the 
+development nodes with:
 
 ```
-mpirun -np 4 my_example_script.py
+mpirun -np 4 python my_example_script.py
 ```
 
 where ```-np 4``` means to use 4 MPI tasks (this can be changed, 
