@@ -133,7 +133,7 @@ outputs you see.
 While it's fine to run short computational tasks on the development
 node, anything that uses significant resources (CPUs, memory, etc.)
 should run using the batch system.  You can easily use your new
-version of Anaconda in a slurm batch script.  To do so, look at the
+version of Anaconda in a [Slurm](https://wiki.hpcc.msu.edu/display/ITH/Job+Scheduling+by+SLURM) batch script.  To do so, look at the
 file `mpi_examples/example_batch_script.sb` in this repository, and
 note the section that starts with the comment "#### THE LINES BELOW
 THIS SET UP THE PYTHON ENVIRONMENT".

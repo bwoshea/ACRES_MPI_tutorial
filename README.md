@@ -40,10 +40,10 @@ but people often choose to use powers of two).
 ## Before the tutorial
 
 
-1. Read [Chapter 1 (through section 1.3.4.3)](http://pages.tacc.utexas.edu/~eijkhout/istc/html/sequential.html)
-of the book [Introduction to High-Performance Scientific Computing](http://pages.tacc.utexas.edu/~eijkhout/istc/html/index.html),
+1. Read [Chapter 1 (through section 1.3.4.3)](https://theartofhpc.com/istc/sequential.html)
+of the book [Introduction to High-Performance Scientific Computing](https://theartofhpc.com/istc/index.html),
 by Victor Eijkhout.  Optionally, skim through
-[Chapter 2](http://pages.tacc.utexas.edu/~eijkhout/istc/html/parallel.html)
+[Chapter 2](https://theartofhpc.com/istc/parallel.html)
 of that book as well.
 
 2. Read through the file `supercomputing_and_MPI_notes.pdf`, 
