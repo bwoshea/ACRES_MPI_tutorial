@@ -59,13 +59,13 @@ of that book as well.
 
 [mpi4py documentation](http://mpi4py.readthedocs.io/en/stable/index.html)
 
-[Livermore Parallel Computing tutorial](https://computing.llnl.gov/tutorials/parallel_comp/) 
+[Livermore Parallel Computing tutorial](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial) 
 
-[Livermore MPI tutorial (C++/Fortran)](https://computing.llnl.gov/tutorials/mpi/)
+[Livermore MPI tutorial (C++/Fortran)](https://hpc-tutorials.llnl.gov/mpi/)
 
-[Introduction to Scientific Computing book](http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html) by [Victor Eijkhout at TACC](http://www.eijkhout.net/)
+[Introduction to Scientific Computing book](https://theartofhpc.com/istc/index.html) by [Victor Eijkhout at TACC](http://www.eijkhout.net/)
 
-[Parallel Programming in MPI and OpenMP](http://pages.tacc.utexas.edu/~eijkhout/pcse/html/index.html), also by Victor Eijkhout 
+[Parallel Programming in MPI and OpenMP](https://theartofhpc.com/pcse/index.html), also by Victor Eijkhout 
 
 ----
 

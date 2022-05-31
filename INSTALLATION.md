@@ -58,7 +58,7 @@ Then, at the command line and while you are in your home directory,
 type:
 
 ```
-wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 ```
 
 (or replace that URL with an updated version, if you want.)  It may
@@ -68,7 +68,7 @@ downloaded by typing the following, updating the file name if you have
 downloaded a newer version:
 
 ```
-bash ./Anaconda3-2021.05-Linux-x86_64.sh
+bash ./Anaconda3-2022.05-Linux-x86_64.sh
 ```
 
 For installation it's perfectly reasonable to let Anaconda use all of
