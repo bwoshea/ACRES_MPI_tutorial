@@ -1,5 +1,7 @@
 # Installing Anaconda Python and mpi4py
 
+**WARNING: AS OF May 31, 2023 this has not been verified to still be correct!**
+
 The goal of this file is to walk you through installing the
 [Anaconda Python distribution](https://www.anaconda.com/products/individual-b)
 on the MSU supercomputer (managed by the

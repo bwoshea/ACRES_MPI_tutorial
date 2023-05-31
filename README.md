@@ -40,12 +40,8 @@ but people often choose to use powers of two).
 ## Before the tutorial
 
 
-1. Read [Chapter 1 (through section 1.3.4.3)](https://theartofhpc.com/istc/sequential.html)
-of the book [Introduction to High-Performance Scientific Computing](https://theartofhpc.com/istc/index.html),
-by Victor Eijkhout.  Optionally, skim through
-[Chapter 2](https://theartofhpc.com/istc/parallel.html)
-of that book as well.
 
+1. Watch [this video](https://www.youtube.com/watch?v=_dpbUqZ7rRk) that introduces the components of a computer.
 2. Read through the file `supercomputing_and_MPI_notes.pdf`, 
    which is included in this repository.
 
